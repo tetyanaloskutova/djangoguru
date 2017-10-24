@@ -1,0 +1,6 @@
+activate py36
+[py36] C:\Users\tetyana.lookutova>django-admin.exe startproject mysite .
+python manage.py runserver 0:8000
+python manage.py startapp blog
+manage.py makemigrations blog
+python manage.py createsuperuser
